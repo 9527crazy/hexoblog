@@ -47,7 +47,7 @@ future: true
 highlight:
   enable: false
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: false
@@ -106,3 +106,8 @@ deploy:
   type: git
   repo: https://github.com/9527crazy/9527crazy.github.io.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  content: true
