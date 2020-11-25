@@ -8,18 +8,15 @@ subtitle: '个人作品与文章记录'
 description: 'Java，JavaScript，程序记录'
 keywords:
 author: Crazy God
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+# url: http://example.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -48,9 +45,9 @@ highlight:
   enable: false
   line_number: true
   auto_detect: true
-  tab_replace: ''
-  wrap: true
-  hljs: false
+  tab_replace: 4
+#  wrap: true
+#  hljs: false
 prismjs:
   enable: false
   preprocess: true
@@ -73,7 +70,7 @@ tag_map:
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
+# meta_generator: true
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -82,7 +79,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+# updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
